@@ -21,7 +21,7 @@
             "name": "ID",
             "description": "User ID",
             "in": "path",
-            "required": true,
+            "required": true
           }
         ],
         "responses": {
