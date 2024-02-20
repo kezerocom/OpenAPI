@@ -12,18 +12,18 @@
     }
   ],
   "paths": {
-    "/user/{id}": {  
+    "/user": {  
       "description": "User informations",
-      "get": {
-        "description": "Fetch a user informations",
-        "parameters": [
+      "parameters": [
           {
             "name": "ID",
             "description": "User ID",
             "in": "path",
             "required": true
           }
-        ],
+      ],
+      "get": {
+        "description": "Fetch a user informations",
         "responses": {
           "200":  {
             "description": "Success"
