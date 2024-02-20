@@ -10,5 +10,12 @@
       "url": "https://api.firer.kezero.com",
       "description": "FIRER API URL"
     }
-  ]
+  ],
+  "paths": {
+    "/user": {  
+      "description": "Fetch user information",
+      "get": {
+        
+      }
+    }
 }
