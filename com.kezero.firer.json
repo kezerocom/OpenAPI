@@ -15,7 +15,12 @@
     "/user/{id}": {  
       "description": "User informations",
       "get": {
-        "description": "Fetch a user informations"
+        "description": "Fetch a user informations",
+        "responses": {
+          "200":  {
+            "description": "Success"
+          }
+        }
       }
     }
   }
