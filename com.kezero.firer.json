@@ -1,1 +1,15 @@
-
+{
+  "openapi": "3.1.0"
+  "info": {
+    "title": "Firer game (OpenAPI)",
+    "summary": "Firer game (OpenAPI) spec",
+    "description": "Firer game (OpenAPI) spec documentation",
+    "version": "1.0",
+  },
+  "servers": [
+    {
+      "url": "https://api.firer.kezero.com",
+      "description": "FIRER API URL"
+    }
+  ]
+}
