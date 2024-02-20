@@ -15,7 +15,7 @@
     "/user/{id}": {  
       "description": "User informations",
       "get": {
-        "description": "Fetch a user informatiopm"
+        "description": "Fetch a user informations"
       }
     }
   }
