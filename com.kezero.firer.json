@@ -18,7 +18,7 @@
                 "description": "Fetch a user informations",
                 "parameters": [
                     {
-                        "name": "ID",
+                        "name": "id",
                         "description": "User ID",
                         "in": "path",
                         "required": true
