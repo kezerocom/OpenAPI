@@ -16,6 +16,14 @@
       "description": "User informations",
       "get": {
         "description": "Fetch a user informations",
+        "parameters": [
+          {
+            "name": "ID",
+            "description": "User ID",
+            "in": "path",
+            "required": true,
+          }
+        ],
         "responses": {
           "200":  {
             "description": "Success"
