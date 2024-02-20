@@ -12,10 +12,10 @@
     }
   ],
   "paths": {
-    "/user": {  
-      "description": "Fetch user information",
+    "/user/{id}": {  
+      "description": "User informations",
       "get": {
-        
+        "description": "Fetch a user informatiopm"
       }
     }
   }
